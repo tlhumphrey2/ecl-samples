@@ -1,10 +1,3 @@
-/*
-   The Types.FromMatrix function takes input_dataset of type
-   ML.Mat.Types.Element, which is the record layout used by
-   many matrix, and converts it to a dataset of type ML.Types.NumericField.
-
-*/
-
  IMPORT ML;
  //example 1
  ChickWeightRec := RECORD
@@ -25,14 +18,14 @@
             ],ChickWeightRec);
  OUTPUT(ChickWeights,NAMED('ChickWeights'));
 
- // Convert ChickWeights from ChickWeightRec to ML.Types.NumericField record layout
+ // Convert ChickWeights from ChickWeightRec to record := layout := ML.Types.NumericField
  ML.ToField(ChickWeights,NumericFieldChickWeight)
  OUTPUT(NumericFieldChickWeight,NAMED('NumericFieldChickWeight'),all);
 
- // Convert ChickWeights from ML.Types.NumericField to ML.Mat.Types.Element record layout
+ // Convert ChickWeights from to := ML := ML.Types.NumericField.Mat.Types.Element record layout
  MatrixChickWeight := ML.Types.ToMatrix(NumericFieldChickWeight);
  OUTPUT(MatrixChickWeight,NAMED('MatrixChickWeight'),all);
 
- // Convert ChickWeights from ML.Mat.Types.Element to ML.Types.NumericField record layout
+ // Convert ChickWeights from ML.Mat.Types.Element to record := layout := ML.Types.NumericField
  NumericFieldChickWeight2 := ML.Types.FromMatrix(MatrixChickWeight);
  OUTPUT(NumericFieldChickWeight2,NAMED('NumericFieldChickWeight2'),all);

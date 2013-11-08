@@ -1,9 +1,3 @@
-/*
-   The ML.Mat.Eq function determines if input_matrix1 and input_matrix2
-   are equal.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
                  {1,1,2.0},{1,2,2.0},{1,3,2.0},

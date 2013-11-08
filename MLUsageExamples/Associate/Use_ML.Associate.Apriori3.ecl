@@ -1,10 +1,3 @@
-/*
-   The Associate.Apriori3 definition returns a dataset that contains
-   three items of RecordSet that occurred together at
-   least Count times in RecordSet.
-
-*/
-
    IMPORT ML;
    IMPORT ML.Docs AS Docs;
    d11 := DATASET([

@@ -1,9 +1,3 @@
-/*
-   The Vec.ToCol function returns a matrix column which is a
-   dataset of type Mat.Types.Element with all y values = column_number.
-
-*/
-
   IMPORT * FROM ML;
   A := DATASET([
                 {1,1,6},{2,1,8},{3,1,1}

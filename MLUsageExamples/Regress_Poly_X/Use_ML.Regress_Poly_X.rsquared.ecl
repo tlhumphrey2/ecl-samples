@@ -1,7 +1,3 @@
-/*
-No description found.
-*/
-
    // Example given in Machine Learning Library Reference
    IMPORT ML;
    R := RECORD

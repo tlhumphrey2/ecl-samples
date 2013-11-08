@@ -1,11 +1,3 @@
-/*
-   The ML.Utils.NotNN function returns a_string with the word_count
-   word omitted. If no spaces exists in a_string or word_count
-   is greater than the number of words in a_string
-   then a_string is returned.
-
-*/
-
   IMPORT ML;
   s2:='There are three spaces ';
      // Last space is on the very end.

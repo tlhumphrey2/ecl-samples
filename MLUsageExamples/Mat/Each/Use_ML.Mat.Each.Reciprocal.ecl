@@ -1,10 +1,3 @@
-/*
-   The ML.Mat.Each.Reciprocal function calculates the reciprocal
-   of each element of input_matrix, where the numerator
-   (top number) of the reciprocal is scalar.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
    {1,1,2.0},{1,2,2.0},{1,3,2.0},
@@ -14,8 +7,7 @@
 
    ReciprocalA1 := ML.Mat.Each.Reciprocal(A,1);
    OUTPUT(ReciprocalA1,NAMED('ReciprocalA1'));
-   <?dbfo-need height="1.7in" ?>
-   /*
+      /*
        Contents of ReciprocalA1      
          x   y   value  
          1   1     0.5  

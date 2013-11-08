@@ -1,10 +1,3 @@
-/*
-   The Vec.RepDiag function replaces elements of the main diagonal
-   of input_matrix with elements of input_vector starting
-   with vector_index position of input_vector.
-
-*/
-
   IMPORT * FROM ML;
   M := DATASET([
        {1,1,1},{1,2,2},{1,3,3},
@@ -20,8 +13,7 @@
 
   M2 := ML.Mat.Vec.RepDiag(M,V,1);
   OUTPUT(M2,NAMED('M2'));
-  <?dbfo-need height="1.7in" ?>
-  /*
+    /*
     M2's content   
   x   y   value  
   1   2     2.0  

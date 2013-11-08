@@ -1,7 +1,3 @@
-/*
-No description found.
-*/
-
    IMPORT ML;
    value_record := RECORD
    UNSIGNED rid;

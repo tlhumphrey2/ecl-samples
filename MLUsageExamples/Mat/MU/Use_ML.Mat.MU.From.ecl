@@ -1,13 +1,3 @@
-/*
-   The ML.Mat.MU.From function takes a multi_matrix with record
-   layout ML.Types.MUElement and a matrix identifier matrix_id
-   and returns all the records of multi_matrix that have
-   the identifier matrix_id. These will be all the elements
-   of a given matrix.
-
-*/
-
-
    IMPORT * FROM ML;
    A1 := DATASET([
                   {1,1,1.0},{1,2,1.0},{1,3,1.0},
@@ -29,7 +19,7 @@
    A2MU := ML.Mat.MU.To(A2, 7);
    OUTPUT(A2MU,NAMED('A2MU'));
 
-   A1MUPlusA2MU:=A1MU+A2MU;
-     // Two matrices in resulting dataset
-   OUTPUT(A1MUPlusA2MU,NAMED('A1MUPlusA2MU'));Result is orginal A1MU matrix.
+   A1MUPlusA2MU:=A1MU+A2MU;// Two matrices in resulting dataset
+   OUTPUT(A1MUPlusA2MU,NAMED('A1MUPlusA2MU'));//Result is orginal A1MU matrix.
+   A1MU_org:=ML.Mat.MU.From(A1MUPlusA2MU,4);
    OUTPUT(A1MU_org,NAMED('A1MU_org'));

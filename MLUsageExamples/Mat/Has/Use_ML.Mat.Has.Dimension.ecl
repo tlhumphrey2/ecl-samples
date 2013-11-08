@@ -1,10 +1,3 @@
-/*
-   The ML.Mat.Has.Dimension function returns the size of the
-   largest dimension of input_matrix.
-
-*/
-
-
    IMPORT * FROM ML;
    A := DATASET([
    {1,1,1},{1,2,2},{1,3,3},{1,4,4},
@@ -15,7 +8,7 @@
    ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-   5 X 4 Matrix
+   The A Matrix (5x4)
     1  2  3  4
     5  6  7  8
     9 10 11 12

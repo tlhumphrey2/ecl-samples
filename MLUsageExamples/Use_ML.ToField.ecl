@@ -1,12 +1,3 @@
-/*
-   The ToField macro takes an input_dataset where each row contains
-   a uid_field and one or more axes_fields. This macro
-   converts the input_dataset into a dataset having the ML.Types.NumericField
-   record layout which is used by other
-   ML defintions.
-
-*/
-
 
  IMPORT ML;
  //example 1

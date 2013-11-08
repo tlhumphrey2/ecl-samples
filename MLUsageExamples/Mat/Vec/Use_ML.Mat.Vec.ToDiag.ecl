@@ -1,9 +1,3 @@
-/*
-   The Vec.ToDiag function makes a diagonal matrix from the input_vector
-   starting with element_number element of input_vector.
-
-*/
-
   // example1
   IMPORT * FROM ML;
   A := DATASET([
@@ -13,8 +7,7 @@
 
   M1 := ML.Mat.Vec.ToDiag(A);
   OUTPUT(M1,NAMED('M1'));
-  <?dbfo-need height="1.2in" ?>
-  /*
+    /*
     M1's content   
   x   y   value  
   1   1     6.0  
@@ -34,8 +27,7 @@
 
   M2 := ML.Mat.Vec.ToDiag(A,3);
   OUTPUT(M2,NAMED('M2'));
-  <?dbfo-need height="1.0in" ?>
-  /*
+    /*
     M2's content   
   x   y   value  
   1   1     1.0  

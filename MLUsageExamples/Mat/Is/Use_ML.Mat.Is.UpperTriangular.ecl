@@ -1,11 +1,3 @@
-/*
-   The ML.Mat.Is.UpperTriangular function returns a true if input_matrix
-   is a UpperTriangular matrix. Otherwise it returns
-   false.
-
-*/
-
-
    IMPORT * FROM ML;
    A := DATASET([
                {1,1,1},{1,2,2},{1,3,3},

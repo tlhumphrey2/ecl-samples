@@ -1,12 +1,3 @@
-/*
-   The Docs.Trans.WordBag function fills in the field words_in_doc
-   of each record of the returned dataset with the number
-   of times the "word" appears in the document where the
-   "word" is the value of field word and the document is the
-   value of field id
-
-*/
-
 IMPORT ML;
 IMPORT ML.Docs AS Docs;
 d := 

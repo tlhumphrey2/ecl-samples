@@ -1,10 +1,3 @@
-/*
-   The ML.Mat.Is.Diagonal function returns a true if input_matrix
-   is a Diagonal matrix. Otherwise it returns false.
-
-*/
-
-
    IMPORT * FROM ML;
    A := DATASET([
                {1,1,3},{1,2,0},{1,3,0},

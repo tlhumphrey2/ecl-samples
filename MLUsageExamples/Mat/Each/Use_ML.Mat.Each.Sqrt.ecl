@@ -1,9 +1,3 @@
-/*
-   The ML.Mat.Each.Sqrt function takes the square root of each
-   element of input_matrix.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
    {1,1,4.0},{1,2,4.0},{1,3,4.0},
@@ -13,8 +7,7 @@
 
    SqrtA := ML.Mat.Each.Sqrt(A);
    OUTPUT(SqrtA,NAMED('SqrtA'));
-   <?dbfo-need height="1.7in" ?>
-   /*
+      /*
     Contents of SqrtA  
    x   y   value  
    1   1     2.0  

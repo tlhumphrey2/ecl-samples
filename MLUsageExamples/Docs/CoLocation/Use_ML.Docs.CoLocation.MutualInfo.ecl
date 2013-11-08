@@ -1,19 +1,3 @@
-/*
-   The Docs.Colocation.MutualInfo function computes a Mutual
-   Information (MI) value for each term of in_dataset (except
-   those with in_dataset frequency less than min_frequency)
-   For each term of in_dataset, the MI value basically compares
-   the term's frequency of use in in_dataset with its
-   frequency of use in out_dataset. High MI values indicate
-   that the term is used more in in_dataset than in out_dataset.
-   One possible use of this function is to assist in the
-   selection of terms for a specific class, in_dataset, of
-   a classification system. For more on the mathematics and
-   use of this function see section 13.5.1 of "An Introduction
-   to Information Retrieval" by C.D. Manning, et al.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs;
 

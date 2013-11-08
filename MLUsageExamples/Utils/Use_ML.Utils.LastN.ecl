@@ -1,8 +1,3 @@
-/*
-   The ML.Utils.LastN function returns the last word in a_string.
-
-*/
-
   IMPORT ML;
   s2:='There are three spaces ';
   x2:=ML.Utils.LastN(s2);

@@ -1,10 +1,3 @@
-/*
-   The Utils.FatD function inserts integer_number where no value
-   exists in input_dataset, i.e. input_dataset is a sparse
-   matrix.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
                  {1,2,2},{1,3,3},

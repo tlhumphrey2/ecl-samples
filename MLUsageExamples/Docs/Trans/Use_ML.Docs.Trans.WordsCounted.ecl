@@ -1,12 +1,3 @@
-/*
-   The Docs.Trans.WordsCounted function adds to the output dataset
-   of ML.Docs.Trans.WordBag any additional document positions
-   for which a word occurred in input_dataset. Furthermore,
-   the records of these added document positions contain
-   the word totals and counts calculated by ML.Docs.Trans.WordBag.
-
-*/
-
 IMPORT ML;
 IMPORT ML.Docs AS Docs;
 d := 

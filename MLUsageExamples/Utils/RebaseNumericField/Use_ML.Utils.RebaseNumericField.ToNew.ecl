@@ -1,9 +1,3 @@
-/*
-   The Utils.RebaseNumericField.ToNew changes the base of input_dataset
-   using mapping.
-
-*/
-
    IMPORT ML;
    value_record := RECORD
     UNSIGNED rid;

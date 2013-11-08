@@ -1,11 +1,3 @@
-/*
-   The Docs.Colocation.Conviction function is the ratio of 1
-   minus the Support of SetOfNGrams2 over 1 minus the Confidence
-   of SetOfNGrams1 and SetOfNGrams2. More specifically
-   it is (1 - Support(SetOfNGrams2) / (1 - Confidence(SetOfNGrams1,SetOfNGrams2)
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
 
@@ -21,7 +13,7 @@
   words_of_dSentences := ML.Docs.Colocation.Words(dSentences);
   OUTPUT(words_of_dSentences,NAMED('words_of_dSentences')); 
 
-  dAllNGrams := ML.Docs.Colocation.<emphasis>AllNGrams</emphasis>(words_of_dSentences);
+  dAllNGrams := ML.Docs.Colocation.AllNGrams(words_of_dSentences);
   OUTPUT(dAllNGrams,NAMED('dAllNGrams'));
 
   NGramSet1 := ['MILK','BREAD'];

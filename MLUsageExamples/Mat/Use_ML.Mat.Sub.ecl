@@ -1,9 +1,3 @@
-/*
-   The ML.Mat.Sub function does a standard matrix subtraction
-   of the two matrices, input_matrix1 and input_matrix2.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
                  {1,1,2.0},{1,2,2.0},{1,3,2.0},
@@ -18,8 +12,7 @@
 
    SubAB := ML.Mat.Sub(A,B);
    OUTPUT(SubAB,NAMED('SubAB'));
-   <?dbfo-need height="1.7in" ?>
-   /*
+      /*
     Contents of SubAB  
    x   y   value  
    1   1     1.0  

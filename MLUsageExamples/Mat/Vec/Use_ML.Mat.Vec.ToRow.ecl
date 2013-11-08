@@ -1,9 +1,3 @@
-/*
-   The Vec.ToRow function returns a matrix row which is a dataset
-   of type Mat.Types.Element with all x values = row_number.
-
-*/
-
   IMPORT * FROM ML;
   A := DATASET([
                 {1,1,6},{2,1,8},{3,1,1}

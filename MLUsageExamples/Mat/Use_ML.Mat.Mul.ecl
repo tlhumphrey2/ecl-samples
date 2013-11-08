@@ -1,9 +1,3 @@
-/*
-   The ML.Mat.Mul function does a standard matrix multiply of
-   the two matrices, input_matrix1 and input_matrix2.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
    {1,1,2.0},{1,2,2.0},{1,3,2.0},

@@ -1,13 +1,6 @@
-/*
-   The ML.Mat.Identity function creates Identify matrix of size
-   dimension.
-
-*/
-
    IMPORT * FROM ML;
    OUTPUT(ML.Mat.Identity(10));// Makes a 10 x 10 identity matrix.
-   <?dbfo-need height="1.8in" ?>
-   /*
+      /*
       Identity Matrix Created    
        x    y    value  
         1    1     1.0  

@@ -1,11 +1,3 @@
-/*
-   The Associate.AprioriN definition returns a dataset that contains
-   all sets of items up to and including those of size
-   MaxN where MaxN must be >= MinN (whose default value is
-   2)
-
-*/
-
    IMPORT ML;
    IMPORT ML.Docs AS Docs;
    d11 := DATASET([

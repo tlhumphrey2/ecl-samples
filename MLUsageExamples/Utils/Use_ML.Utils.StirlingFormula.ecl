@@ -1,16 +1,7 @@
-/*
-   The Utils.StirlingFormula function calculates an approximate
-   value of the factorial of positive_number. As positive_number
-   gets larger and larger, the percent of error of the
-   approximate value calculated by StirlingFormula gets smaller
-   and smaller (see example below)
-
-*/
-
   IMPORT ML;
 
    /*
-     This example shows how the error precentage of the difference between the factorial and 
+     This example shows how the error precentage of the difference between the factorial and
      stirling's approximation changes as n gets larger.
    */
 
@@ -33,7 +24,7 @@
                ,{128,0,0,0,''}
                ], compare_fac_stirling_rec);
 
-   compare_fac_stirling_rec calcFacApprxFacAndErrorPercent( compare_fac_stirling_rec r ) := 
+   compare_fac_stirling_rec calc( compare_fac_stirling_rec r ) :=
      TRANSFORM
         Fac := ML.Utils.fac(r.n);
         ApprxFac := ML.Utils.stirlingFormula(r.n);
@@ -46,8 +37,6 @@
         SELF.ErrorPercent := ErrorPercent;
      END;
 
-   LoopBody := PROJECT(ROWS(LEFT),calcFacApprxFacAndErrorPercent(LEFT));
-
-   MyLoop := LOOP(compare_fac_stirlingDS,7,LoopBody);
+   MyLoop := LOOP(compare_fac_stirlingDS,7,PROJECT(ROWS(LEFT),calc(LEFT)));
 
    OUTPUT(MyLoop);

@@ -1,10 +1,3 @@
-/*
-   The Utils.RebaseNumericField.Mapping provides a mapping that
-   enables one to change the base of input_dataset (using
-   ToNew) and then return it to the original base (using ToOld)
-
-*/
-
    IMPORT ML;
    value_record := RECORD
     UNSIGNED rid;

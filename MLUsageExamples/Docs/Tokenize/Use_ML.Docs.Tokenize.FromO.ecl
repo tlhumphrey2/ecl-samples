@@ -1,11 +1,3 @@
-/*
-   The Docs.Tokenize.FromO function does the opposite of ML.Docs.Tokenize.ToO.
-   It takes input_dataset1 of type ML.Docs.Types.OWordElement
-   and input_dataset2 of type ML.Docs.Types.LexiconElement
-   and produces a dataset of type ML.Docs.Types.WordElement.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
 

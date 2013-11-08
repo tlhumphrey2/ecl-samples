@@ -1,14 +1,3 @@
-/*
-   The ML.Mat.Householder.Reflection function produces a dataset
-   that is the Householder Reflection (also called a Householder
-   matrix or Householder transformation) (named after
-   Alston Scott Householder who introduced the transformation
-   in 1958) A Householder Reflection is a linear transformation
-   that describes a reflection about a plane or hyperplane
-   containing the origin.
-
-*/
-
    IMPORT * FROM ML;
    V :=
       DATASET([
@@ -20,8 +9,7 @@
    OUTPUT(V,NAMED('V'));
 
    ML.Mat.Householder(V,3).Reflection();
-   <?dbfo-need height="1.2in" ?>
-   /*
+      /*
          Householder Reflection of V       
              x   y   value  
              1   1     1.0  

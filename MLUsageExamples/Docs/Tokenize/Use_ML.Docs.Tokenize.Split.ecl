@@ -1,10 +1,3 @@
-/*
-   The Docs.Tokenize.Split function takes input_dataset of type
-   ML.Docs.Types.Raw and splits words into records of type
-   ML.Docs.Types.WordElement.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
 

@@ -1,10 +1,3 @@
-/*
-   The Docs.Tokenize.Clean function takes input_dataset of type
-   ML.Docs.Types.Raw and prepares the text for tokenization.
-   Below is a list of cleaning operations done:
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
 

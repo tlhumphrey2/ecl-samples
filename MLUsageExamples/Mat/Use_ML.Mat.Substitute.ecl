@@ -1,11 +1,3 @@
-/*
-   The ML.Mat.Substitute function constructs a matrix that contains
-   all existing elements of input_matrix2 and where input_matrix2
-   has NULL elements, input_matrix1 elements are
-   inserted.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
                  {1,1,8.0},{1,2,8.0},{1,3,8.0},

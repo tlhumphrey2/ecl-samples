@@ -1,11 +1,3 @@
-/*
-   The Docs.Tokenize.macFromO macro produces outfile which has
-   the same record layout as infile. And, it fills textfield
-   with the word text (found in the Word field of lexicon)
-   of the word whose fixed length unique identifier is idfield.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
 

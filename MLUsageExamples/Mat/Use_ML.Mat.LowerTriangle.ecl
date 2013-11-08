@@ -1,9 +1,3 @@
-/*
-   The ML.Mat.LowerTriangle function returns the Lower Triangle
-   of input_matrix.
-
-*/
-
  IMPORT ML;
  IMPORT ML.Mat AS Mat;
  d := DATASET([

@@ -1,13 +1,3 @@
-/*
-   The Utils.mac_SequenceInField macro will sequence all records
-   having the same infield value. Furthermore, for records
-   having the same infield value, seq will reflect their
-   relative order in infile (e.g. if record x and y both have
-   the same infield value and x was in infile before y then
-   x's seq number would be smaller than y's)
-
-*/
-
     IMPORT ML;
     // x has a ML.Types.NumericField layout but all number fields are zero.
     x:=DATASET([

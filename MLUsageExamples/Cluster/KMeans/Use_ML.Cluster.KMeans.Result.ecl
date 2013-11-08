@@ -1,9 +1,3 @@
-/*
-   The Result function returns the locations of the centroids
-   after the iterationN iteration.
-
-*/
-
   IMPORT ML;
   D:=ML.Tests.Explanatory.ClusterDS;
   ML.ToField(D,dEntities);

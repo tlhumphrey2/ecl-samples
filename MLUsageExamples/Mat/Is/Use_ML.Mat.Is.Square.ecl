@@ -1,10 +1,3 @@
-/*
-   The ML.Mat.Is.Square function returns a true if input_matrix
-   is a Square matrix. Otherwise it returns false.
-
-*/
-
-
    IMPORT * FROM ML;
    A := DATASET([
                {1,1,1},{1,2,2},{1,3,3},

@@ -1,9 +1,3 @@
-/*
-   The Convergence definition returns the number of iterations
-   that were performed.
-
-*/
-
   IMPORT ML;
   D:=ML.Tests.Explanatory.ClusterDS;
   ML.ToField(D,dEntities);

@@ -1,9 +1,3 @@
-/*
-   The ML.Mat.Has.MeanRow function returns the mean value of
-   each row of input_matrix.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
    {1,1,1},{1,2,2},{1,3,3},

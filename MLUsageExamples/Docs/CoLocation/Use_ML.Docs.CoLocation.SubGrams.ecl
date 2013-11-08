@@ -1,12 +1,3 @@
-/*
-   The Docs.Colocation.SubGrams function returns a dataset whose
-   record layout contains all the fields of NGramsDS plus
-   a new REAL valued field called components The field, components,
-   contains the product of the pcts of each word that
-   makes up each ngram (NG)
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
   dSentences:=DATASET([

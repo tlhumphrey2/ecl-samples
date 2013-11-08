@@ -1,9 +1,3 @@
-/*
-   The Vec.Norm function calculates the norm of input_vector
-   which is the square root of its dot product.
-
-*/
-
   // example1
   IMPORT * FROM ML;
   A := DATASET([

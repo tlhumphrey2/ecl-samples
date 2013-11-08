@@ -1,12 +1,3 @@
-/*
-   The Docs.Trans.TfIdf function calculates the TF-IDF value
-   for each word of input_dataset and returns a record for every
-   word whose a) total_docs is less than LowDocCount and
-   2) TF-IDF is greater than LowThreshold. The returned dataset
-   has the following record layout:
-
-*/
-
 IMPORT ML;
 IMPORT ML.Docs AS Docs;
 d := 

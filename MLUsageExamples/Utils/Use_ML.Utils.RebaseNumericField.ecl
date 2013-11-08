@@ -1,11 +1,3 @@
-/*
-   The Utils.RebaseNumericField module provides three functions
-   that enable one to change the base of input_dataset and
-   then return it to the original base. These functions are:
-   Mapping, ToNew, and ToOld.
-
-*/
-
    IMPORT ML;
    value_record := RECORD
     UNSIGNED rid;

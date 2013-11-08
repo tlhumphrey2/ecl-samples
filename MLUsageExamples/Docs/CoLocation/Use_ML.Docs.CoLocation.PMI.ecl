@@ -1,12 +1,3 @@
-/*
-   The Docs.Colocation.PMI function computes the Pointwise Mutual
-   Information (PMI) for each ngram of SubGramsDS. One
-   interpretation of PMI is that it measures the deviation between
-   the observed frequency of a ngram and the probability
-   of that ngram if it were independent.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs;
 

@@ -1,10 +1,3 @@
-/*
-   The Associate.Apriori2 definition returns a dataset that contains
-   item pairs of RecordSet that occurred together at
-   least Count times in RecordSet.
-
-*/
-
    IMPORT ML;
    IMPORT ML.Docs AS Docs;
    d11 := DATASET([

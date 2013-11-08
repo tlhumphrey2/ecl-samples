@@ -1,10 +1,3 @@
-/*
-   The ML.Mat.SetDimension function makes input_matrix a matrix
-   with dimensions i_index, j_index if Strict is TRUE. Otherwise
-   input_matrix is unchanged.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
                  {1,1,2.0},{1,2,2.0},{1,3,2.0},

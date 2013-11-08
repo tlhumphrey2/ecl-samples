@@ -1,10 +1,3 @@
-/*
-   The ML.Utils.NotLast function returns the STRING before the
-   last space. If no spaces exists in a_string then blank
-   is returned.
-
-*/
-
   IMPORT ML;
   s2:='There are three spaces ';
      // Last space is on the very end.

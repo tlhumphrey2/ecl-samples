@@ -1,13 +1,3 @@
-/*
-   The Associate.EclatN definition returns a dataset that contains
-   all sets of items up to and including those of size
-   N where N must be >= MinN (whose default value is 2) The
-   difference between this function and AprioriN is that this
-   function using the "eclat" technique to produce its resultant
-   dataset.
-
-*/
-
    IMPORT ML;
    IMPORT ML.Docs AS Docs;
    d11 := DATASET([

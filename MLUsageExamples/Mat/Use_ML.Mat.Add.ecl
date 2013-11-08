@@ -1,9 +1,3 @@
-/*
-   The ML.Mat.Add function does a standard matrix addition of
-   the two matrices, input_matrix1 and input_matrix2.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
                  {1,1,2.0},{1,2,2.0},{1,3,2.0},
@@ -18,8 +12,7 @@
 
    AddAB := ML.Mat.Add(A,B);
    OUTPUT(AddAB,NAMED('AddAB'));
-   <?dbfo-need height="1.7in" ?>
-   /*
+      /*
     Contents of AddAB  
    x   y   value  
    1   1     3.0  

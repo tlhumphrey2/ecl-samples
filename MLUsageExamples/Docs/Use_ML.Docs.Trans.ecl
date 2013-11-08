@@ -1,9 +1,3 @@
-/*
-   The Docs.Trans module, when found in an action statement,
-   like OUTPUT, produces three files, tf_idf, WordBag and WordsCounted
-
-*/
-
 IMPORT ML;
 IMPORT ML.Docs AS Docs;
 d := 

@@ -1,10 +1,3 @@
-/*
-   The Docs.Tokenize.Lexicon function takes input_dataset of
-   type ML.Docs.Types.WordElement and constructs a lexicon dataset
-   of type ML.Docs.Types.LexiconElement.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
 

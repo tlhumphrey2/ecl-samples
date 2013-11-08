@@ -1,12 +1,3 @@
-/*
-   The DistanceDelta function returns the straight-line distance
-   traveled by every centroid starting with the BeginN iteration
-   through the EndN iteration. Also, DistanceDelta(0)
-   returns the same result as DistanceDelta(0,L), where L
-   is the last iteration.
-
-*/
-
   IMPORT ML;
   D:=ML.Tests.Explanatory.ClusterDS;
   ML.ToField(D,dEntities);

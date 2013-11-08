@@ -1,15 +1,3 @@
-/*
-   The Utils.Gini functionmacro calculates the Gini Impurity
-   for every pivot/target pair in infile. Gini Impurity is one
-   minus the sum of the squares of the probabilities. A probability
-   is calculated as follows: 1st, N = the number
-   of records with a particular pivot value. 2nd, n_class =
-   the number of records having a particular target value given
-   a particular pivot value. So, the probability = n_class
-   divided by N.
-
-*/
-
    IMPORT * FROM ML;
    IMPORT * FROM ML.Types;
    sRecord := RECORD
@@ -31,7 +19,7 @@
      The dataset is divided in three subdatasets: gid =1, gid =2, gid =3.
      For each subdataset Gini Impurity is calculated based on class value
      the dataset could have more attributes, however they won't affect the 
-     result (keeping gid as <emphasis>pivot</emphasis> and class as <emphasis>target</emphasis>).
+     result (keeping gid as pivot and class as target).
 
    gid, totalCount, gini
    1      5         0.0                 

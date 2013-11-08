@@ -1,11 +1,3 @@
-/*
-   The Docs.CoLocation.ShowPhrase function uses the lexicon to
-   convert the optimized_phrase, i.e. the words of the phrase
-   are represented by the word_ids, into a STRING for words,
-   where each word_id is replaced with the equivalent word.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
 

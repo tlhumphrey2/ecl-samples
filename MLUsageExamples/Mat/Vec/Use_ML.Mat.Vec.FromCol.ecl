@@ -1,10 +1,3 @@
-/*
-   The Vec.FromCol function returns a vector (i.e. a dataset
-   of type Types.VecElement) which was the column_number column
-   of the input_matrix.
-
-*/
-
    IMPORT * FROM ML;
    IMPORT ML.Mat.MU;
    A := DATASET([

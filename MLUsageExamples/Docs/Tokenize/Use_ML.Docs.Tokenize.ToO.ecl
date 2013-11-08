@@ -1,13 +1,3 @@
-/*
-   The Docs.Tokenize.ToO function takes input_dataset1 of type
-   ML.Docs.Types.WordElement and input_dataset2 of type ML.Docs.Types.LexiconElement
-   and produces an optimized version
-   of input_dataset1 where each variable-length word of
-   input_dataset1 is replaced with its unique fixed length word
-   Id, found in the lexicon, input_dataset2.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
 

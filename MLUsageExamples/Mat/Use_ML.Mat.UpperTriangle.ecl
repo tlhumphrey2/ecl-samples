@@ -1,9 +1,3 @@
-/*
-   The ML.Mat.UpperTriangle function returns the Upper Triangle
-   of input_matrix.
-
-*/
-
  IMPORT ML;
  IMPORT ML.Mat AS Mat;
  d := DATASET([

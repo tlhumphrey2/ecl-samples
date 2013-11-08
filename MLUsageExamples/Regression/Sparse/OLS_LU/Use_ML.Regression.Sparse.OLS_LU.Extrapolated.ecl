@@ -1,7 +1,3 @@
-/*
-No description found.
-*/
-
     IMPORT ML;
     value_record := RECORD
     UNSIGNED rid;
@@ -37,8 +33,7 @@ No description found.
                      ,SELF.extrapo:=RIGHT.value
           )
     );
-    <?dbfo-need height="2.1in" ?>
-    /*
+        /*
              JOIN produces the following:         
   id   actual              extrapo            
    1   76.09999999999999   76.35769230769249  

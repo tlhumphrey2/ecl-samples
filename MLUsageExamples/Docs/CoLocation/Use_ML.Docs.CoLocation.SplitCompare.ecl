@@ -1,17 +1,3 @@
-/*
-   The Docs.Colocation.SplitCompare function returns a dataset
-   that contains ngrams of NGramsDS that contain 2 or more
-   words. Each row of the returned dataset contains 1) an input
-   dataset ngram (NG) that contained 2 or more words, 2)
-   all other fields of NG's inputted record, 3) one single
-   word (W) of NG with its pct and 4) the ngram (RG) created
-   by removing W from NG (also RG's pct is in the returned
-   dataset) For each ngram (NG) of NGramsDS, the returned dataset
-   will have a row for every W/RG pair of NG where both
-   W and RG exists in NGramsDS.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
   dSentences:=DATASET([

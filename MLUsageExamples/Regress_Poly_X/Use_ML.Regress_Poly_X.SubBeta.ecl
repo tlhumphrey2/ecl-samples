@@ -1,7 +1,3 @@
-/*
-No description found.
-*/
-
    // Example given in Machine Learning Library Reference
    IMPORT ML;
    R := RECORD
@@ -26,8 +22,7 @@ No description found.
    OUTPUT(flds,NAMED('flds'));
    P := ML.Regress_Poly_X(flds(number=1),flds(number=2));
    P.SubBeta(3,6);
-   <?dbfo-need height="1.0in" ?>
-   /*
+      /*
      SubBeta's Returned Dataset       
   id   name    value                   
    2   X0      0.8641658004063828  

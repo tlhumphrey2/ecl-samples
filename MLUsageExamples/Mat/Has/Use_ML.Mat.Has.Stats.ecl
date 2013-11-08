@@ -1,12 +1,3 @@
-/*
-   The ML.Mat.Has.Stats function returns a single record containing
-   stats for the input_matrix. The stats returned for
-   input_matrix are: <blockquote><para> <orderedlist> <listitem><para>Number
-   of elements in the input_matrix (NElements)
-
-*/
-
-
    IMPORT * FROM ML;
    A := DATASET([
    {1,1,1},{1,2,2},{1,3,3},{1,4,4},

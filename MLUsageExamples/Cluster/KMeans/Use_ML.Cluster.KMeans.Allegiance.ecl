@@ -1,10 +1,3 @@
-/*
-   The Allegiance function returns the centroid to which entityId
-   is closest after iterationN iteration. If iterationN
-   is not given then the iteration used is the last one.
-
-*/
-
   IMPORT ML,ML.Tests.Explanatory;
   D:=ML.Tests.Explanatory.ClusterDS;
   ML.ToField(D,dEntities);

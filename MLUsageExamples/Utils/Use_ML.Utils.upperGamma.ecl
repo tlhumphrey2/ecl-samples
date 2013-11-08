@@ -1,9 +1,3 @@
-/*
-   The Utils.upperGamma function calculates the upper incomplete
-   gamma function of positive_number1 and positive_number2.
-
-*/
-
    IMPORT ML;
 
    /*

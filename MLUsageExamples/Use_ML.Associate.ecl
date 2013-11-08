@@ -1,10 +1,3 @@
-/*
-   The ML.Associate module produces the output of all of its
-   EXPORTed definitions that have no input parameters, i.e.
-   Apriori1, Apriori2, and Apriori3.
-
-*/
-
    IMPORT ML;
    IMPORT ML.Docs AS Docs;
    d11 := DATASET([

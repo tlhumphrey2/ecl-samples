@@ -1,14 +1,7 @@
-/*
-   The Dendrogram definition displays the result of the clustering
-   as a STRING representation of the tree diagram.
-
-*/
-
   IMPORT ML;
   D:=ML.Tests.Explanatory.ClusterDS;
   OUTPUT(ML.Cluster.AggloN(dEntities,4).Dendrogram);
-  <?dbfo-need height="1.1in" ?>
-  /*
+    /*
     Dendrogram After 4 Iterations   
   clusterid   members                          
   3           {3}{8}                           

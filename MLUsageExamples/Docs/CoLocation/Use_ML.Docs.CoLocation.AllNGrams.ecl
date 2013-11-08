@@ -1,13 +1,3 @@
-/*
-   The Docs.Colocation.AllNGrams function uses the words of Words
-   to make word ngrams where the maximum words per ngram
-   is MaxWordsPerNGram. If Lexicon is given then the ngram
-   field of the returned ML.Docs.CoLocation.AllNGramsLayout
-   dataset contains a list of integer word_ids instead of the
-   text of each word of the ngram.
-
-*/
-
   IMPORT ML;
   IMPORT ML.Docs.Types;
 
@@ -20,7 +10,7 @@
   ],ML.Docs.Types.Raw);
   OUTPUT(dSentences,NAMED('dSentences'));
 
-  words_of_dSentences := ML.Docs.Colocation.<emphasis>Words</emphasis>(dSentences);
+  words_of_dSentences := ML.Docs.Colocation.Words(dSentences);
   OUTPUT(words_of_dSentences,NAMED('words_of_dSentences')); 
 
   AllNGrams1 := ML.Docs.Colocation.AllNGrams(words_of_dSentences);

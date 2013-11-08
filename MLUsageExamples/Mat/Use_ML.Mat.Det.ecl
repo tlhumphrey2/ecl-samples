@@ -1,9 +1,3 @@
-/*
-   The ML.Mat.Det function calculates and returns the determinant
-   of input_matrix.
-
-*/
-
    IMPORT * FROM ML;
    A := DATASET([
                  {1,1,2.0},{1,2,2.0},{1,3,2.0},
