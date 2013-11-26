@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-        LowerTriangular Matrix       
-           1   0   0  
-           4   3   0  
-           5   1   2  
+        LowerTriangular Matrix
+           1   0   0
+           4   3   0
+           5   1   2
    */
 
    IsLowerTriangular := ML.Mat.Is(A).LowerTriangular;

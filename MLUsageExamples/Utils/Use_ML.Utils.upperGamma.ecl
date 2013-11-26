@@ -23,7 +23,7 @@
                ,{128,10,0,0}
                ], lgamma_ugamma_rec);
 
-   lgamma_ugamma_rec 
+   lgamma_ugamma_rec
       cmpBetaWithGammaEquivalent( lgamma_ugamma_rec r ) :=
         TRANSFORM
            lgamma_xy := ML.Utils.upperGamma(r.x,r.y);

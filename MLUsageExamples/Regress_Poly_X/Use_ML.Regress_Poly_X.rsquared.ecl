@@ -5,7 +5,7 @@
    INTEGER Recs;
    REAL Time;
    END;
-   d := 
+   d :=
        DATASET([
                 {1,50000,1.00},
                 {2,500000,2.29},

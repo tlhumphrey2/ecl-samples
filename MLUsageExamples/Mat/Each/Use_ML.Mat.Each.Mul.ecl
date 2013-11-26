@@ -13,15 +13,15 @@
    MulAB := ML.Mat.Each.Mul(A,B);
    OUTPUT(MulAB,NAMED('MulAB'));
       /*
-    Contents of MulAB  
-   x   y   value  
-   1   1     6.0  
-   1   2     6.0  
-   1   3     6.0  
-   2   1     6.0  
-   2   2     6.0  
-   2   3     6.0  
-   3   1     6.0  
-   3   2     6.0  
-   3   3     6.0  
+    Contents of MulAB
+   x   y   value
+   1   1     6.0
+   1   2     6.0
+   1   3     6.0
+   2   1     6.0
+   2   2     6.0
+   2   3     6.0
+   3   1     6.0
+   3   2     6.0
+   3   3     6.0
    */

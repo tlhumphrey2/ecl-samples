@@ -16,7 +16,7 @@
   OUTPUT(AllNGrams,NAMED('AllNGrams'));
 
   NGrams := ML.Docs.Colocation.NGrams(AllNGrams);
-  OUTPUT(NGrams,NAMED('NGrams')); 
+  OUTPUT(NGrams,NAMED('NGrams'));
 
   SubGrams := ML.Docs.CoLocation.SubGrams(NGrams);
   OUTPUT(SubGrams,NAMED('SubGrams'));

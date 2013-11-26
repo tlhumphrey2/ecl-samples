@@ -8,9 +8,9 @@
    HasMeanCol := ML.Mat.Has(A).MeanCol;
    OUTPUT(HasMeanCol,NAMED('HasMeanCol'));
    /*
-      Content of HasMeanCol    
-       x   y   value  
-       1   1     4.0  
-       1   2     5.0  
-       1   3     6.0  
+      Content of HasMeanCol
+       x   y   value
+       1   1     4.0
+       1   2     5.0
+       1   3     6.0
    */

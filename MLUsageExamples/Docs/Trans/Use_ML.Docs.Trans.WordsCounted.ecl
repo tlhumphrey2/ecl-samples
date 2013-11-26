@@ -1,6 +1,6 @@
 IMPORT ML;
 IMPORT ML.Docs AS Docs;
-d := 
+d :=
   DATASET(
    [
     {'One of the wonderful things about tiggers is tiggers are wonderful things'},

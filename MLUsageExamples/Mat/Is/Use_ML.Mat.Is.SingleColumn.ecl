@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-           SingleColumn Matrix         
-                 1  
-                 4  
-                 5  
+           SingleColumn Matrix
+                 1
+                 4
+                 5
    */
 
    IsSingleColumn := ML.Mat.Is(A).SingleColumn;

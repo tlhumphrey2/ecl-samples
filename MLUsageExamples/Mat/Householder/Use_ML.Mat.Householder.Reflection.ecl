@@ -10,12 +10,12 @@
 
    ML.Mat.Householder(V,3).Reflection();
       /*
-         Householder Reflection of V       
-             x   y   value  
-             1   1     1.0  
-             2   2     1.0  
-             3   3    0.98  
-             3   4    0.20  
-             4   3    0.20  
-             4   4   -0.98  
+         Householder Reflection of V
+             x   y   value
+             1   1     1.0
+             2   2     1.0
+             3   3    0.98
+             3   4    0.20
+             4   3    0.20
+             4   4   -0.98
    */

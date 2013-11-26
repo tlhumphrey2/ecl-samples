@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-    Zero Matrix  
-   0   0   0  
-   0   0   0  
-   0   0   0  
+    Zero Matrix
+   0   0   0
+   0   0   0
+   0   0   0
    */
 
    IsZero := ML.Mat.Is(A).Zero;

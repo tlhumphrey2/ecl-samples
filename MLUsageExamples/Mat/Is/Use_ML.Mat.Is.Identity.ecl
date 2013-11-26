@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-     Identity Matrix   
-     1   0   0  
-     0   1   0  
-     0   0   1  
+     Identity Matrix
+     1   0   0
+     0   1   0
+     0   0   1
    */
 
    IsIdentity := ML.Mat.Is(A).Identity;

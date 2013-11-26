@@ -4,4 +4,4 @@
   OUTPUT(x2);
   s3:='There are four spaces here';
   x3:=ML.Utils.LastN(s3);
-  OUTPUT(x3);	
+  OUTPUT(x3);

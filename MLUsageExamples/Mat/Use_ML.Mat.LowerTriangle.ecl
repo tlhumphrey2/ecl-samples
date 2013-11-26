@@ -15,12 +15,12 @@
  lt:=ML.Mat.LowerTriangle(d);
  OUTPUT(lt,NAMED('lt'));
  /*
-   Lower Triangle of D   
-     x   y   value  
-     1   1     1.0  
-     2   1     4.0  
-     2   2     5.0  
-     3   1     7.0  
-     3   2     8.0  
-     3   3     9.0  
+   Lower Triangle of D
+     x   y   value
+     1   1     1.0
+     2   1     4.0
+     2   2     5.0
+     3   1     7.0
+     3   2     8.0
+     3   3     9.0
  */

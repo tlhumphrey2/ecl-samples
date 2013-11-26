@@ -14,11 +14,11 @@
      //convert to NumericField dataset.
 
    // Select the dependent and independent variables, respectively.
-   Y := O(Number=2); 
+   Y := O(Number=2);
      // pull out class
    OUTPUT(Y,NAMED('Y'));
 
-   //For the matrix based implementation of Logistic regression to 
+   //For the matrix based implementation of Logistic regression to
    // work properly, matrix Y has to be a single column matrix (i.e. 1x10).
 
    Y_Map1 := ML.Utils.RebaseNumericField(Y).Mapping(1);

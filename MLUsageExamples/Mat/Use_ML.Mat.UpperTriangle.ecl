@@ -15,12 +15,12 @@
  ut:=ML.Mat.UpperTriangle(d);
  OUTPUT(ut,NAMED('ut'));
  /*
-   Upper Triangle of D   
-     x   y   value  
-     1   1     1.0  
-     1   2     2.0  
-     1   3     3.0  
-     2   2     5.0  
-     2   3     6.0  
-     3   3     9.0  
+   Upper Triangle of D
+     x   y   value
+     1   1     1.0
+     1   2     2.0
+     1   3     3.0
+     2   2     5.0
+     2   3     6.0
+     3   3     9.0
  */

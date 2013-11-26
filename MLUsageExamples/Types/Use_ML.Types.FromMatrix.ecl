@@ -8,7 +8,7 @@
    UNSIGNED Diet;
  END;
 
- ChickWeights := 
+ ChickWeights :=
     DATASET([
              {1,42,0,1,1},
              {2,51,2,1,2},

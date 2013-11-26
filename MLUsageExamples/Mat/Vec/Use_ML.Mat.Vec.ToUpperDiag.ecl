@@ -8,14 +8,14 @@
   M1 := ML.Mat.Vec.ToUpperDiag(A);
   OUTPUT(M1,NAMED('M1'));
     /*
-    M1's content   
-  x   y   value  
-  1   2     6.0  
-  2   3     8.0  
-  3   4     1.0  
-  4   5     8.0  
-  5   6     5.0  
-  6   7     9.0  
+    M1's content
+  x   y   value
+  1   2     6.0
+  2   3     8.0
+  3   4     1.0
+  4   5     8.0
+  5   6     5.0
+  6   7     9.0
   */
 
   // example2
@@ -28,11 +28,11 @@
   M2 := ML.Mat.Vec.ToUpperDiag(A,2);
   OUTPUT(M2,NAMED('M2'));
     /*
-    M2's content   
-  x   y   value  
-  1   2     8.0  
-  2   3     1.0  
-  3   4     8.0  
-  4   5     5.0  
-  5   6     9.0  
+    M2's content
+  x   y   value
+  1   2     8.0
+  2   3     1.0
+  3   4     8.0
+  4   5     5.0
+  5   6     9.0
   */

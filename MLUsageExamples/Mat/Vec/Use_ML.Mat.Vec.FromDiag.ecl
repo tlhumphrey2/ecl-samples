@@ -12,12 +12,12 @@
   D := ML.Mat.Vec.FromDiag(A);
   OUTPUT(D,NAMED('D'));
     /*
-     D's content   
-  x   y   value  
-  1   1     1.0  
-  2   1     6.0  
-  3   1    11.0  
-  4   1    16.0  
+     D's content
+  x   y   value
+  1   1     1.0
+  2   1     6.0
+  3   1    11.0
+  4   1    16.0
   */
 
   // example2
@@ -34,10 +34,10 @@
   D2 := ML.Mat.Vec.FromDiag(A2,1);
   OUTPUT(D2,NAMED('D2'));
     /*
-    D2's content   
-  x   y   value  
-  1   1     1.0  
-  2   1     6.0  
-  3   1    11.0  
-  4   1    16.0  
+    D2's content
+  x   y   value
+  1   1     1.0
+  2   1     6.0
+  3   1    11.0
+  4   1    16.0
   */

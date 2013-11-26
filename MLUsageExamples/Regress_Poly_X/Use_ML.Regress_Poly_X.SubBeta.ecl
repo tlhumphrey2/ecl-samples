@@ -5,7 +5,7 @@
    INTEGER Recs;
    REAL Time;
    END;
-   d := 
+   d :=
        DATASET([
                 {1,50000,1.00},
                 {2,500000,2.29},
@@ -23,10 +23,10 @@
    P := ML.Regress_Poly_X(flds(number=1),flds(number=2));
    P.SubBeta(3,6);
       /*
-     SubBeta's Returned Dataset       
-  id   name    value                   
-   2   X0      0.8641658004063828  
-   2   X       3.037243681895984e-06   
-   2   XLogX   9.566179023998075e-16   
-   2   XX     -6.511786739555933e-23  
+     SubBeta's Returned Dataset
+  id   name    value
+   2   X0      0.8641658004063828
+   2   X       3.037243681895984e-06
+   2   XLogX   9.566179023998075e-16
+   2   XX     -6.511786739555933e-23
    */

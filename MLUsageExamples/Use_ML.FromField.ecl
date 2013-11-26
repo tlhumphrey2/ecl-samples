@@ -6,19 +6,19 @@
   ML.ToField(Chicks,NumericFieldChicks);
 
   lOrig:=recordof(ML.Tests.Deprecated.ChickWeight);
-  ML.FromField(NumericFieldChicks,lOrig,OrigDS); 
+  ML.FromField(NumericFieldChicks,lOrig,OrigDS);
      // No mapping given, so assumes input dataset's field numbers also give the order
      // of the corresponding numeric fields of the output. Another way of saying this is
      // that the desired output layout has its UID and numeric fields in the same order
      // as the <indexterm><primary>ToField</primary></indexterm> process's input dataset.
   OUTPUT(OrigDS,NAMED('OrigDS'));
     /*
-             Output of OrigDS           
-  rid   weight   time   chick   diet  
-    1       42      0       1      1  
-    2       51      2       1      1  
-    3       59      4       1      1  
-    4       64      6       1      1  
+             Output of OrigDS
+  rid   weight   time   chick   diet
+    1       42      0       1      1
+    2       51      2       1      1
+    3       59      4       1      1
+    4       64      6       1      1
     .        .      .       .      .
     .        .      .       .      .
     .        .      .       .      .
@@ -53,12 +53,12 @@
   ML.FromField(NumericFieldChicks,OutSpecialRec,CustomizedDS,OutSpecialMap);
   OUTPUT(CustomizedDS,NAMED('CustomizedDS'));
     /*
-         Output of CustomizedDS        
-  wgt   time   chicken   diet   rid  
-   42      0         1      1     1  
-   51      2         1      1     2  
-   59      4         1      1     3  
-   64      6         1      1     4  
+         Output of CustomizedDS
+  wgt   time   chicken   diet   rid
+   42      0         1      1     1
+   51      2         1      1     2
+   59      4         1      1     3
+   64      6         1      1     4
     .      .         .      .     .
     .      .         .      .     .
     .      .         .      .     .

@@ -10,9 +10,9 @@
    V:=ML.Mat.Vec.FromCol(A,2);
    OUTPUT(V);
    /*
-      V's content   
-  x   y   value  
-  1   1     2.0  
-  2   1     4.0  
-  3   1     6.0  
+      V's content
+  x   y   value
+  1   1     2.0
+  2   1     4.0
+  3   1     6.0
    */

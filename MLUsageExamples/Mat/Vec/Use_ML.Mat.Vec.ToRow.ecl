@@ -7,9 +7,9 @@
   M := ML.Mat.Vec.ToRow(A,10);
   OUTPUT(M,NAMED('M'));
   /*
-     M's content    
-  x    y   value  
-  10   1     6.0  
-  10   2     8.0  
-  10   3     1.0  
+     M's content
+  x    y   value
+  10   1     6.0
+  10   2     8.0
+  10   3     1.0
   */

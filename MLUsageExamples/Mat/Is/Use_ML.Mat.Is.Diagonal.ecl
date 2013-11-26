@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-     Diagonal Matrix   
-     3   0   0  
-     0   2   0  
-     0   0   6  
+     Diagonal Matrix
+     3   0   0
+     0   2   0
+     0   0   6
    */
 
    IsDiagonal := ML.Mat.Is(A).Diagonal;

@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-    Scalar Matrix  
-   6   0   0  
-   0   6   0  
-   0   0   6  
+    Scalar Matrix
+   6   0   0
+   0   6   0
+   0   0   6
    */
 
    IsScalar := ML.Mat.Is(A).Scalar;

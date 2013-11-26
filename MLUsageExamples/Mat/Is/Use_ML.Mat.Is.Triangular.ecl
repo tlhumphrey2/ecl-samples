@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-      Triangular Matrix    
-       1   0   0  
-       4   3   0  
-       5   1   2  
+      Triangular Matrix
+       1   0   0
+       4   3   0
+       5   1   2
    */
 
    IsTriangular := ML.Mat.Is(A).Triangular;

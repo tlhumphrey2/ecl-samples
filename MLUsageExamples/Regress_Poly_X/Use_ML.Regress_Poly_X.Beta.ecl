@@ -5,7 +5,7 @@
    INTEGER Recs;
    REAL Time;
    END;
-   d := 
+   d :=
        DATASET([
                 {1,50000,1.00},
                 {2,500000,2.29},
@@ -23,10 +23,10 @@
    P := ML.Regress_Poly_X(flds(number=1),flds(number=2),3);
    P.Beta;
       /*
-         Beta Dataset             
-  id   name    value                  
-   2   X0      1.289012943111203  
-   2   LogX   -0.1809435529083999  
-   2   X       3.306473769157685e-06  
-   2   XLogX  -1.78603572714734e-16  
+         Beta Dataset
+  id   name    value
+   2   X0      1.289012943111203
+   2   LogX   -0.1809435529083999
+   2   X       3.306473769157685e-06
+   2   XLogX  -1.78603572714734e-16
    */

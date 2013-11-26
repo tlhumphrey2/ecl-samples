@@ -6,4 +6,4 @@
   s3:='There are four spaces here';
      // Last space is just before 'here'.
   x3:=ML.Utils.NotLast(s3);
-  OUTPUT(x3);	
+  OUTPUT(x3);

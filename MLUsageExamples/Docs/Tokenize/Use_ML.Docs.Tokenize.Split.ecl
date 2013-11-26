@@ -14,4 +14,4 @@
   OUTPUT(cleaned_dSentences,NAMED('cleaned_dSentences'));
 
   words_of_dSentences := ML.Docs.Tokenize.Split(cleaned_dSentences);
-  OUTPUT(words_of_dSentences,NAMED('words_of_dSentences')); 
+  OUTPUT(words_of_dSentences,NAMED('words_of_dSentences'));

@@ -8,15 +8,15 @@
    RoundDeltaA := ML.Mat.RoundDelta(A,0.2);
    OUTPUT(RoundDeltaA,NAMED('RoundDeltaA'));
       /*
-       Contents of RoundDeltaA     
-         x   y   value  
-         1   1     1.0  
-         1   2     2.0  
-         1   3     3.0  
-         2   1     1.0  
-         2   2     2.0  
-         2   3     3.0  
-         3   1     1.0  
-         3   2     2.0  
-         3   3     3.0  
+       Contents of RoundDeltaA
+         x   y   value
+         1   1     1.0
+         1   2     2.0
+         1   3     3.0
+         2   1     1.0
+         2   2     2.0
+         2   3     3.0
+         3   1     1.0
+         3   2     2.0
+         3   3     3.0
    */

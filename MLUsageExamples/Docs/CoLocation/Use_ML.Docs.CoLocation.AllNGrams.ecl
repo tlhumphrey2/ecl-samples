@@ -11,11 +11,11 @@
   OUTPUT(dSentences,NAMED('dSentences'));
 
   words_of_dSentences := ML.Docs.Colocation.Words(dSentences);
-  OUTPUT(words_of_dSentences,NAMED('words_of_dSentences')); 
+  OUTPUT(words_of_dSentences,NAMED('words_of_dSentences'));
 
   AllNGrams1 := ML.Docs.Colocation.AllNGrams(words_of_dSentences);
-  OUTPUT(AllNGrams1,NAMED('AllNGrams1')); 
+  OUTPUT(AllNGrams1,NAMED('AllNGrams1'));
 
   lexicon := ML.Docs.CoLocation.lexicon(words_of_dSentences);
   AllNGrams2 := ML.Docs.Colocation.AllNGrams(words_of_dSentences,lexicon);
-  OUTPUT(AllNGrams2,NAMED('AllNGrams2')); 
+  OUTPUT(AllNGrams2,NAMED('AllNGrams2'));

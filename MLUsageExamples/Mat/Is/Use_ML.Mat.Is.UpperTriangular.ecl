@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-        UpperTriangular Matrix       
-           1   2   3  
-           0   1   4  
-           0   0   5  
+        UpperTriangular Matrix
+           1   2   3
+           0   1   4
+           0   0   5
    */
 
    IsUpperTriangular := ML.Mat.Is(A).UpperTriangular;

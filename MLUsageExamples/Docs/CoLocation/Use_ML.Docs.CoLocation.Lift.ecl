@@ -11,7 +11,7 @@
   OUTPUT(dSentences,NAMED('dSentences'));
 
   words_of_dSentences := ML.Docs.Colocation.Words(dSentences);
-  OUTPUT(words_of_dSentences,NAMED('words_of_dSentences')); 
+  OUTPUT(words_of_dSentences,NAMED('words_of_dSentences'));
 
   dAllNGrams := ML.Docs.Colocation.AllNGrams(words_of_dSentences);
   OUTPUT(dAllNGrams,NAMED('dAllNGrams'));

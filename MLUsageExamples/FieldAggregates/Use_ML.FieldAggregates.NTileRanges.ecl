@@ -9,12 +9,12 @@
    OUTPUT(ML.FieldAggregates(NF_x20).NTiles(3));
    OUTPUT(ML.FieldAggregates(NF_x20).NTileRanges(3));
       /*
-         NTileRanges Output          
-  number   ntile   min   max    cnt  
-       1       1   1.0    3.0     5  
-       1       2   6.0    6.0     3  
-       1       3   9.0   10.0     2  
-       2       1   1.0    1.0     5  
-       2       2   2.0    2.0     1  
-       2       3   3.0    3.0     4  
+         NTileRanges Output
+  number   ntile   min   max    cnt
+       1       1   1.0    3.0     5
+       1       2   6.0    6.0     3
+       1       3   9.0   10.0     2
+       2       1   1.0    1.0     5
+       2       2   2.0    2.0     1
+       2       3   3.0    3.0     4
    */

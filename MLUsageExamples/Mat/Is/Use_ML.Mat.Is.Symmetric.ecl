@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-    Symmetric Matrix   
-   1    7    3  
-   7    4   -5  
-   3   -5    6  
+    Symmetric Matrix
+   1    7    3
+   7    4   -5
+   3   -5    6
    */
 
    IsSymmetric := ML.Mat.Is(A).Symmetric;

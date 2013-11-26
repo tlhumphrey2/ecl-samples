@@ -8,15 +8,15 @@
    AddA5 := ML.Mat.Each.Add(A,5);
    OUTPUT(AddA5,NAMED('AddA5'));
       /*
-    Contents of AddA5  
-   x   y   value  
-   1   1     7.0  
-   1   2     7.0  
-   1   3     7.0  
-   2   1     7.0  
-   2   2     7.0  
-   2   3     7.0  
-   3   1     7.0  
-   3   2     7.0  
-   3   3     7.0  
+    Contents of AddA5
+   x   y   value
+   1   1     7.0
+   1   2     7.0
+   1   3     7.0
+   2   1     7.0
+   2   2     7.0
+   2   3     7.0
+   3   1     7.0
+   3   2     7.0
+   3   3     7.0
    */

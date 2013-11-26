@@ -6,10 +6,10 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-    Square Matrix  
-   1   2   3  
-   4   5   6  
-   7   8   9  
+    Square Matrix
+   1   2   3
+   4   5   6
+   7   8   9
    */
 
    IsSquare := ML.Mat.Is(A).Square;

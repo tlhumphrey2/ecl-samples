@@ -7,11 +7,11 @@
                ], ML.Mat.Types.Element);
    OUTPUT(A,NAMED('A'));
    /*
-    TriDiagonal Matrix   
-   1   4   0   0  
-   3   4   1   0  
-   0   2   3   4  
-   0   0   1   3  
+    TriDiagonal Matrix
+   1   4   0   0
+   3   4   1   0
+   0   2   3   4
+   0   0   1   3
    */
 
    IsTriDiagonal := ML.Mat.Is(A).TriDiagonal;

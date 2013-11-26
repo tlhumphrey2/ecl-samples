@@ -8,9 +8,9 @@
    HasMeanRow := ML.Mat.Has(A).MeanRow;
    OUTPUT(HasMeanRow,NAMED('HasMeanRow'));
    /*
-      Content of HasMeanRow    
-       x   y   value  
-       1   1     2.0  
-       1   2     5.0  
-       1   3     8.0  
+      Content of HasMeanRow
+       x   y   value
+       1   1     2.0
+       1   2     5.0
+       1   3     8.0
    */
