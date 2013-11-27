@@ -13,7 +13,6 @@
 
    AddColumnA:=ML.Mat.InsertColumn(A,1,9);
    OUTPUT(AddColumnA);
-
    /*
       Contents of AddColumnA     
        x   y   value  
