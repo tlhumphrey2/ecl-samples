@@ -18,9 +18,9 @@
    indep_test:= indep_data;
 
    ToField(indep_data, pr_indep);
-   <emphasis>indep</emphasis> := ML.Discretize.ByRounding(pr_indep);
+   indep := ML.Discretize.ByRounding(pr_indep);
    ToField(dep_data, pr_dep);
-   <emphasis>dep</emphasis> := ML.Discretize.ByRounding(pr_dep);
+   dep := ML.Discretize.ByRounding(pr_dep);
 
    comparison:= ML.Classify.DecisionTree.C45().TestD(Indep, Dep);
    OUTPUT(comparison);
