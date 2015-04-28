@@ -38,7 +38,10 @@
       );
    flds1 := flds0+f4;
    flds := ML.Discretize.ByRounding(flds1);
+   LogReg := ML.Classify.Logistic();
+   Model3 := LogReg.LearnC(flds1(Number<=2),flds(Number=3));
+   model := LogReg.Model(Model3);
+   OUTPUT(SORT(model,number),NAMED('model')); 
 
-   Model3 := ML.Classify.Logistic().LearnC(flds1(Number<=2),flds(Number=3));
-   predict:=ML.Classify.Logistic().ClassifyC(flds1(Number<=2),Model3);
+   predict:=LogReg.ClassifyC(flds1(Number<=2),Model3);
    OUTPUT(predict,NAMED('predict'));
